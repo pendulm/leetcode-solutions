@@ -25,7 +25,7 @@ main() {
     cd $problem_dir
     if [[ ! -f $problem_dir/$src_file ]]; then
         fill_golang_template
-        echo "create templdate $src_file"
+        echo "create template $src_file"
     fi
 }
 
