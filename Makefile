@@ -1,2 +1,3 @@
+lang = rust
 %:
-	@bash scripts/golang_template.sh $@
+	@bash scripts/$(lang)_template.sh $@
